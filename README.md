@@ -1,5 +1,5 @@
 ## Quantum Chemistry in Python
-Molecular energy can be computed by solving roothaan equations for Ristricted Hartee-Fock with STO-3G (RHF/STO-3G). <br>
+Molecular energy can be computed by solving roothaan equations for Ristricted Hartree-Fock with STO-3G (RHF/STO-3G). <br>
 Available atoms are from H to Ne because I don't prepare basis set of other atoms and atomic properties.<br>
 However, Overlap, Kinetic, Nuclear Attraction, Electron Replusive Integrals are available to other atoms with d, f oribitals.<br>
 
