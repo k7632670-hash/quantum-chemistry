@@ -1,9 +1,9 @@
-*Quantum Chemistry in Python
+##Quantum Chemistry in Python
 Molecular energy can be computed by solving roothaan equations for Ristricted Hartee-Fock with STO-3G (RHF/STO-3G). 
 Available atoms are from H to Ne because I don't prepare basis set of other atoms and atomic properties.
 However, Overlap, Kinetic, Nuclear Attraction, Electron Replusive Integrals are available to other atoms with d, f oribitals.
 
-*How to Use
+##How to Use
 You need to edit "main.py" to adjust what molecular you want to calculate.
 Basically, you can implemet the code by editting only two parts shown below:
 "mole_ar" and "color_set"
@@ -39,17 +39,17 @@ Roothaan Equations_RHF sto3g.py is a test code.
 This is not used in main.py and regarding programs. 
 ***
 
-*Library requried
+##Library requried
 import numpy as np
 from math import erf
 from numba import jit
 import scipy.special
 import matplotlib.pyplot as plt
 
-*Features
+##Features
 ✓ Hartree-Fock
 
-*Coming soon 
+##Coming soon 
 □ Analytical Gradient
 □ Geometry Optimization
 □ Hessian
@@ -58,7 +58,7 @@ Above functios are already completed in "Roothaan Equations_RHF sto3g.py"
 But they are not separeted to class. It's inconvenient to review programs.
 So, I'm making them modules now.
 
-*Future Plans
+##Future Plans
 □ DFT
 □ MP2
 
