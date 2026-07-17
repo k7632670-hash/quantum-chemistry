@@ -6,7 +6,7 @@ Created on Tue Jul 14 22:55:30 2026
 
 import numpy as np
 from math import erf
-from numba import jit, f8, i8
+from numba import jit
 
 class GaussianIntegrals():
     def __init__(self):

@@ -3,6 +3,9 @@
 Created on Mon Jul 13 23:04:21 2026
 @author: kaz2255pq
 """
+# STO-3G basis set
+# Source: Basis Set Exchange
+# https://www.basissetexchange.org/
 
 class GaussianBasis:
     #chi = A1*exp(-da1*R) + A2*exp(-da2*R) + A3*exp(-da3*R)
