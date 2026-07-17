@@ -4,7 +4,7 @@ Available atoms are from H to Ne because I don't prepare basis set of other atom
 However, Overlap, Kinetic, Nuclear Attraction, Electron Replusive Integrals are available to other atoms with d, f oribitals.
 
 *How to Use
-You need to edit main.py to adjust what molecular you want to calculate.
+You need to edit "main.py" to adjust what molecular you want to calculate.
 Basically, you can implemet the code by editting only two parts shown below:
 "mole_ar" and "color_set"
 
@@ -34,6 +34,11 @@ For example of H2O case,
   color name is based on matplotlib.
   You can chose colors what you like.
 
+***
+Roothaan Equations_RHF sto3g.py is a test code.
+This is not used in main.py and regarding programs. 
+***
+
 *Library requried
 import numpy as np
 from math import erf
@@ -49,7 +54,7 @@ import matplotlib.pyplot as plt
 □ Geometry Optimization
 □ Hessian
 □ IR Spectrum
-Above functios are already completed in Roothaan Equations_RHF sto3g.py
+Above functios are already completed in "Roothaan Equations_RHF sto3g.py"
 But they are not separeted to class. It's inconvenient to review programs.
 So, I'm making them modules now.
 
