@@ -17,7 +17,7 @@ For example of H2O case,
              ["H",[ 0,-1.430523, 1.107379]],<br>
              ["O",[ 0,    0, 0 ]],<br>
             ]<br>
-   mole_ar is dict type. [ Atom symble, cartesian coordinate(x,y,z) ]<br>
+   mole_ar is list type. [ Atom symble, cartesian coordinate(x,y,z) ]<br>
   
 3. Set colors to draw molecular
    If DRAW_MOLE is False, you don't need to edit color_set.<br>
@@ -29,7 +29,7 @@ For example of H2O case,
               }<br>
   
   If you need, you edit it.<br>
-  color_set is also dict type. [ Atom symbole, color ]<br>
+  color_set is also list type. [ Atom symbole, color ]<br>
   color name is based on matplotlib.<br>
   You can chose colors what you like.<br>
 
